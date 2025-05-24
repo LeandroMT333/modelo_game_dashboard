@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.exc import ProgrammingError
 
 # Conexión al servidor de PostgreSQL (base por defecto: postgres)
-engine = create_engine('postgresql+psycopg2://postgres:123456@localhost:5432/postgres')
+engine = create_engine('postgresql+psycopg2://postgres:IlLeandrinh0369@localhost:5432/postgres')
 
 conn = engine.connect()
 dbname = "video_games"

@@ -9,7 +9,7 @@ from models.model import Base, VideoGameSale
 from sqlalchemy.orm import sessionmaker
 
 # Configura tu conexión
-DATABASE_URL = "postgresql://postgres:123456@localhost:5432/video_games"  # ← cámbialo
+DATABASE_URL = "postgresql://postgres:IlLeandrinh0369@localhost:5432/video_games"  # ← cámbialo
 
 # Crear engine y sesión
 engine = create_engine(DATABASE_URL)
